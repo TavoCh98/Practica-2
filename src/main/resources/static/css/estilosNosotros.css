@@ -1,0 +1,94 @@
+.encabezado {
+    position: fixed;
+    font-family: Amasis MT Pro Black;
+    font-size: 26px;
+    top: 0;
+    left: 0;
+    height: 12.05%;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.logoBarber {
+    position: absolute;
+    top: 0;
+    left: 24%;
+    padding-top: 2px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav-list {
+    list-style: none;
+    margin-left: 60px;
+    float: left;
+    padding-right: 50px;
+    margin: -12px;
+}
+
+.item-li {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.item-li:hover {
+    background-color: darkcyan;
+    transition: 0.5s;
+}
+
+#contenido {
+    position: fixed;
+    top: 12%;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    color: white;
+    overflow: auto;
+    background-color: #081836;
+    text-align: center;
+}
+
+.piePag {
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    height: 18%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+.direccionCentro {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    margin-top: -1%;
+}
+
+.ubicacion {
+    position: fixed;
+    bottom: 0;
+    left: 71%;
+    height: 18%;
+    width: 30%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 21px;
+    padding-left: 10px;
+    font-family: times new roman;
+}
+
+.botonUbicacion {
+    font-size: 21px;
+    text-decoration: none;
+}
+
